@@ -1,0 +1,173 @@
+.navbar {
+    height: 80px;
+    background-color: rgb(52, 59, 64);
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 10;
+}
+
+#navbar{
+    background: rgb(52, 59, 64);
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-item a {
+    color: gray !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#active {
+    color: white !important;
+}
+
+#ticket {
+    color: rgb(43, 146, 66) !important;
+}
+
+.portada img {
+    filter: brightness(0.5);
+    width: 100%;
+    object-fit: cover;
+    z-index: -10;
+}
+
+.texto-carousel {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: white;
+    text-align: end;
+    width: 40%;
+}
+
+.texto-carousel h1 {
+    font-size: 30px;
+}
+
+#boton-tickets {
+    background: #29a644;
+    border: none;
+}
+
+.oradores-titulo1 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.oradores-titulo2 {
+    text-align: center;
+}
+
+.card-container {
+    width: 80%;
+    margin: auto !important;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.habilidades p {
+    display: inline;
+    border-style: solid;
+    border-radius: 15%;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.2% 1%;
+}
+
+.javascript-habilidad {
+    background: #ffc900;
+    border-color: #ffc900;
+}
+
+.react-habilidad {
+    background: #16a2b8;
+    border-color: #16a2b8;
+    color: white;
+}
+
+.negocios-habilidad {
+    background: #6b767c;
+    border-color: #6b767c;
+    color: white;
+}
+
+.startups-habilidad {
+    background: #dd3446;
+    border-color: #dd3446;
+    color: white;
+}
+
+.informacion {
+    margin-top: 2%;
+}
+
+.col-md-4 {
+    border: white 0.5px solid;
+}
+
+.card-mb-3 {
+    background: #353a40;
+    color: white;
+    border: white 0.5px solid;
+}
+
+.formulario-oradores h3 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.formulario-oradores {
+    margin-top: 2%;
+}
+
+#charla-link {
+    text-decoration-style: dotted;
+    color: black;
+}
+
+.formulario {
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.formulario p {
+    font-size: 12px;
+}
+
+.formulario button {
+    margin-top: 1%;
+    width: 100%;
+    background: #96c93e;
+}
+
+.footer .navbar {
+    background: linear-gradient(to right, #1d3743, #1c5370);
+}
+
+.footer nav ul li a {
+    color: white !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.footer .navbar ul {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-wi){
+    
+}
